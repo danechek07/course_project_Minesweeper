@@ -366,7 +366,7 @@ int main(void) {
     setlocale(LC_ALL, "Rus");
     srand((unsigned)time(NULL));
 
-    printf("Mines generator (улучшенная последовательность действий).\n");
+    printf("Здравствуйте! Это генератор поля Сапёр (Mines generator).\n");
 
     for (;;) {
         int rows = 8, cols = 8, perc = 15;
